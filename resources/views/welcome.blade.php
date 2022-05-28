@@ -6,6 +6,7 @@
 
       <x-content>
          <x-upbar></x-upbar>
+         <x-addpage></x-addpage>
       </x-content>
 
    </div>
