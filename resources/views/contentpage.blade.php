@@ -6,7 +6,7 @@
  
        <x-content>
           <x-upbar></x-upbar>
-          <x-returnbar></x-returnbar>
+          <x-returnbar class="btn btn-outline-info">{{"<< Regresar"}}</x-returnbar>
 
           <x-handlecontent></x-handlecontent>
 
