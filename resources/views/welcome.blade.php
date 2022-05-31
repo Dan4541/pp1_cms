@@ -6,7 +6,7 @@
 
       <x-content>
          <x-upbar></x-upbar>
-         <x-addpage></x-addpage>
+         <x-addpage :paginas="$paginas"></x-addpage>
       </x-content>
 
    </div>

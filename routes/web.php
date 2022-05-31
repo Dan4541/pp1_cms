@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PaginasController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,11 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 Route::get('/content', function () {
     return view('contentpage');
 });
 
+Route::resource('paginas', PaginasController::class);

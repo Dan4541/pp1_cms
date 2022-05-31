@@ -1,3 +1,4 @@
+
 <div class="container my-3">
 
     <div class="row">
@@ -25,24 +26,16 @@
                     </tr>
                 </thead>
                 <tbody>
+                    
+                    @foreach ($paginas as $item)
                     <tr>
-                    <th scope="row">1</th>
-                    <td colspan="3">Mark</td>
-                    <td class="text-center"><button class="btn btn-warning">editar</button></td>
-                    <td class="text-center"><button class="btn btn-danger">eliminar</button></td>
-                    </tr>
-                    <tr>
-                    <th scope="row">2</th>
-                    <td colspan="3">Jacob</td>
-                    <td class="text-center"><button class="btn btn-warning">editar</button></td>
-                    <td class="text-center"><button class="btn btn-danger">eliminar</button></td>
-                    </tr>
-                    <tr>
-                    <th scope="row">3</th>
-                    <td colspan="3">Larry the Bird</td>
-                    <td class="text-center"><button class="btn btn-warning">editar</button></td>
-                    <td class="text-center"><button class="btn btn-danger">eliminar</button></td>
-                    </tr>
+                        <th scope="row">{{ $item->id_pagina }}</th>
+                        <td colspan="3">{{ $item->titulo }}</td>
+                        <td class="text-center"><button class="btn btn-warning">editar</button></td>
+                        <td class="text-center"><button class="btn btn-danger">eliminar</button></td>
+                        </tr>
+                    @endforeach
+                    
                 </tbody>
                 </table>
 
