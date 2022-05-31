@@ -34,39 +34,7 @@
                     <img src="/img/flyingPig.png" class="card-img-top" alt="">
                 </div>
             </div>
-
-            <div class="card mx-3 my-3" style="width: 7rem;">
-                <div class="row justify-content-end mx-3 mt-2">
-                    <div class="col-3">
-                        <button class="btn btn-danger rounded-circle">x</button>
-                    </div>
-                </div>                
-                <div class="card-body">
-                    <img src="/img/flyingPig.png" class="card-img-top" alt="">
-                </div>
-            </div>
-
-            <div class="card mx-3 my-3" style="width: 7rem;">
-                <div class="row justify-content-end mx-3 mt-2">
-                    <div class="col-3">
-                        <button class="btn btn-danger rounded-circle">x</button>
-                    </div>
-                </div>                
-                <div class="card-body">
-                    <img src="/img/flyingPig.png" class="card-img-top" alt="">
-                </div>
-            </div>
-
-            <div class="card mx-3 my-3" style="width: 7rem;">
-                <div class="row justify-content-end mx-3 mt-2">
-                    <div class="col-3">
-                        <button class="btn btn-danger rounded-circle">x</button>
-                    </div>
-                </div>                
-                <div class="card-body">
-                    <img src="/img/flyingPig.png" class="card-img-top" alt="">
-                </div>
-            </div>
+            
 
         </div>
         

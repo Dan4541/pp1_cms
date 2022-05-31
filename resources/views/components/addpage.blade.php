@@ -6,10 +6,10 @@
         <div class="col-3">            
             <div class="mb-3">
                 <h4 class="my-2">Titulo</h4>
-                <input type="text" class="form-control" id="" placeholder="Nombre Nueva Pagina">
+                <input type="text" class="form-control" name="nPagina" placeholder="Nombre Nueva Pagina">
             </div>
             <div class="mb-3">
-                <button class="btn btn-dark">Crear Nueva</button>
+                <a class="btn btn-dark" href="{{ route('paginas.create') }}">Crear Nueva</a>
             </div>
         </div>
 

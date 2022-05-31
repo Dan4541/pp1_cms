@@ -25,7 +25,7 @@ class PaginasController extends Controller
      */
     public function create()
     {
-        //
+        return view('contentpage');
     }
 
     /**
